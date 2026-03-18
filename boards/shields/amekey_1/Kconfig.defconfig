@@ -1,0 +1,6 @@
+if SHIELD_AMEKEY_1
+
+config ZMK_KEYBOARD_NAME
+    default "amekey-1"
+
+endif # SHIELD_AMEKEY_1
