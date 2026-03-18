@@ -43,7 +43,7 @@
             &trans &trans &studio_unlock &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
             >;
 
-        }
+        };
 
         key_mapping1{ // Layer 2
             display-name = "Layer 2";
@@ -62,7 +62,7 @@
             &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
             >;
 
-        }
+        };
 
 
     };
