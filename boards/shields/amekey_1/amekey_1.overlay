@@ -13,7 +13,7 @@
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-charlieplex";
         
-        //wakeup-source;
+        wakeup-source;
 
         gpios
             = <&xiao_d 8 GPIO_ACTIVE_HIGH>
@@ -27,7 +27,7 @@
             , <&xiao_d 1 GPIO_ACTIVE_HIGH>
             ;
 
-        //interrupt-gpios = <&xiao_d 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+        interrupt-gpios = <&xiao_d 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
     };
 
     default_transform: default_transform0 {
@@ -45,4 +45,7 @@
         >;
     };
 };
-&xiao_serial { status = "disabled"; };
+//&xiao_serial { status = "disabled"; };
+&uart0 {
+    status = "disabled";
+};
