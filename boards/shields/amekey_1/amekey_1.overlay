@@ -45,7 +45,4 @@
         >;
     };
 };
-//&xiao_serial { status = "disabled"; };
-&uart0 {
-    status = "disabled";
-};
+&xiao_serial { status = "disabled"; };
