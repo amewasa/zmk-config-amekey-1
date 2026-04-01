@@ -36,11 +36,11 @@
 // | LCTRL | Fn | Win | ALT | LOWER  |  INT5 |   SPACE   |   SPACE   | INT4 | ALT | Fn |   ←  |  ↓  |  →  |
 
             bindings = <
-            &trans &trans &trans         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-            &trans &trans &trans         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-            &trans &trans &trans         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-            &trans &trans &trans         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-            &trans &trans &studio_unlock &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+            &trans &BT_SEL 0 &BT_SEL 1      &BT_SEL 2 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+            &trans &trans    &trans         &trans    &trans &trans &trans &trans &trans &trans &trans &trans &trans BT_CLR
+            &trans &trans    &trans         &trans    &trans &trans &trans &trans &trans &trans &trans &trans &trans
+            &trans &trans    &trans         &trans    &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+            &trans &trans    &studio_unlock &trans    &trans &trans &trans &trans &trans &trans &trans &trans &trans
             >;
 
         };
